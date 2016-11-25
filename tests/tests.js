@@ -16,7 +16,13 @@
 
     });
 
-    
+    describe("Case for an [9, 0, 1]", function() {
+
+      it("should return 0 for an empty array", function() {
+        expect(myApp.aritGeo([9, 0, 1])).to.equal(-1);
+      });
+
+    });
 
     describe("Case for an arithmetic sequence", function() {
 
