@@ -16,6 +16,14 @@
 
     });
 
+    describe("Case for an [9, 0, 1]", function() {
+
+      it("should return 0 for an empty array", function() {
+        expect(myApp.aritGeo([9, 0, 1])).to.equal(-1);
+      });
+
+    });
+
     describe("Case for an arithmetic sequence", function() {
 
       it("should return `Arithmetic` for [2, 4, 6, 8, 10]", function() {
@@ -47,6 +55,7 @@
       });
 
     });
+
 
     describe("Case for neither arithmetic nor geometric sequence", function() {
 
@@ -121,6 +130,14 @@
 
       it('should return [4] for [4, 4, 4, 4]', function () {
         expect(myApp.findMinMax([4, 4, 4, 4])).to.eql([4]);
+      });
+
+    });
+
+    describe('Return the number in the list in a new list follows `[min]` when the number is the min and max number in that list', function () {
+
+      it('should return [1, 8] for [8, 2, 1, 8]', function () {
+        expect(myApp.findMinMax([8, 2, 1, 8])).to.eql([1, 8]);
       });
 
     });
