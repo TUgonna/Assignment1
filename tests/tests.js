@@ -57,7 +57,21 @@
     });
 
 
-    
+    describe("Case for neither arithmetic nor geometric sequence", function() {
+
+      it("should return -1 for [1, 2, 3, 5, 8]", function() {
+        expect(myApp.aritGeo([1, 2, 3, 5, 8])).to.equal(-1);
+      });
+
+      it("should return -1 for [1, 3, 6, 10, 15]", function() {
+        expect(myApp.aritGeo([1, 3, 6, 10, 15])).to.equal(-1);
+      });
+
+      it("should return -1 for [1, 8, 27, 64, 125]", function() {
+        expect(myApp.aritGeo([1, 8, 27, 64, 125])).to.equal(-1);
+      });
+      
+    });
 
     describe("Fizz Buzz tests ", function() {
 
