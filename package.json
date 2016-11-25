@@ -1,0 +1,26 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "first bootcamp assignment",
+  "main": "app/library.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TUgonna/Assignment1.git"
+  },
+  "author": "Ugonna Thelma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TUgonna/Assignment1/issues"
+  },
+  "homepage": "https://github.com/TUgonna/Assignment1#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
